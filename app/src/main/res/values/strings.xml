@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SnapNote</string>
+    <string name="name">Alvaro Real</string>
+    <string name="snapnote">SnapNote</string>
+    <string name="email">alvaro.real.aloy@gmail.com</string>
+    <string name="open">abierto</string>
+    <string name="close">cerrado</string>
+    <string name="title_activity_note_details">note_details</string>
+    <string name="title_activity_create_note">CreateNote</string>
+</resources>

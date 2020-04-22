@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "497830821224",
+    "firebase_url": "https://snapnote-c2293.firebaseio.com",
+    "project_id": "snapnote-c2293",
+    "storage_bucket": "snapnote-c2293.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497830821224:android:f780b6c5ca87942b9c6add",
+        "android_client_info": {
+          "package_name": "com.example.snapnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497830821224-rrumolnao677gnr8mqfc585fhe2d7gvl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.snapnote",
+            "certificate_hash": "d3f5de0fbdc52cd45d371e9ece2130510f6e1ba0"
+          }
+        },
+        {
+          "client_id": "497830821224-bagepufk4g5o9au9hhlsei1lhp3e7j0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1UxjnQdy6qYsqKiKzIXSEdfDzaU59neE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497830821224-bagepufk4g5o9au9hhlsei1lhp3e7j0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

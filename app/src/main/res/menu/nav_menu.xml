@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/ic_note_black_24dp"
+                android:title="Notas" />
+            <item
+                android:id="@+id/createNote"
+                android:icon="@drawable/ic_note_add_black_24dp"
+                android:title="Crear nota" />
+            <item
+                android:id="@+id/syncronizeNote"
+                android:icon="@drawable/ic_sync_black_24dp"
+                android:title="Sincronizar notas" />
+        </menu>
+    </item>
+    <item android:title="Cerrar sesión">
+
+        <menu >
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Salir" />
+        </menu>
+    </item>
+</menu>
