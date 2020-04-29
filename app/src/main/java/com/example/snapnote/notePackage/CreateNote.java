@@ -1,7 +1,8 @@
-package com.example.snapnote;
+package com.example.snapnote.notePackage;
 
 import android.os.Bundle;
 
+import com.example.snapnote.R;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;

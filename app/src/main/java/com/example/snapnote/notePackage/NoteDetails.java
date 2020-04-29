@@ -1,10 +1,10 @@
-package com.example.snapnote;
+package com.example.snapnote.notePackage;
 
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.snapnote.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +16,7 @@ import android.view.View;
 import android.widget.TextView;
 
 public class NoteDetails extends AppCompatActivity {
-
+        Intent notesData;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +25,7 @@ public class NoteDetails extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        Intent notesData=getIntent();
+        notesData=getIntent();
         TextView title=findViewById(R.id.noteTitle);
         TextView description=findViewById(R.id.noteDescription);
         description.setMovementMethod(new ScrollingMovementMethod());
@@ -36,8 +36,12 @@ public class NoteDetails extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+
+                Intent x=new Intent(view.getContext(), EditNote.class);
+                x.putExtra("title",notesData.getStringExtra("title"));
+                x.putExtra("description",notesData.getStringExtra("description"));
+                x.putExtra("noteId", notesData.getStringExtra("noteId"));
+                startActivity(x);
             }
         });
     }
